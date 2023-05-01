@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+.d-flex {
+  display: flex;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.fd-column {
+  flex-direction: column;
+}
+.j-center {
+  justify-content: center;
+}
+.al-center {
+  align-items: center;
+}
+body {
+  padding: 20px;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+.cell {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+.box {
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+}
+.box1 {
+  width: 300px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+.note{
+  height: 100px;
+  width: 150px;
+  border: 1px solid red;
+}
+button {
+  margin: 10px;
+}
+.spinCookie {
+  animation: spin infinite 2s linear;
+}
+@keyframes example {
+  to {transform: rotate(360deg)}
+}
+input {
+  margin: 10px;
+}
+.border {
+  border: 2px solid black;
+}
+.main {
+  height: 300px;
+  width: 300px;
+}
+
+.options div {
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px
+}
+
+.options div:hover {
+  background-color: mediumseagreen;
+}
+
+.m-10 {
+  margin: 10px;
+}
